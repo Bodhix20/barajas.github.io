@@ -53,5 +53,8 @@ body {
     width: 20%;
 }
 footer{
-    background-color:rgb(145, 145, 145)
+    background-color:rgb(145, 145, 145);
+}
+footer a{
+    margin-right: 17.4%; 
 }
