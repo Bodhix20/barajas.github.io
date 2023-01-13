@@ -51,11 +51,11 @@ body {
 .rayons{
     display: inline-block;
     width: 24%;
-    border-style: solid;
-    border-color: beige;
-    margin-bottom: 10px;
+   
 }
 .magasin{
+  margin: 2%;
+  padding: 2%;
   
 }
 
