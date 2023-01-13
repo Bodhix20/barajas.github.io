@@ -45,11 +45,13 @@ body {
 .menu a:hover.actif{
     background-color: #ed2794;
     color: #ffe843;
-    border-color: #ffe843;
+    border-color: #656565;
 }
 
 .rayons{
     display: inline-block;
     width: 20%;
 }
-
+footer{
+    background-color:rgb(145, 145, 145)
+}
