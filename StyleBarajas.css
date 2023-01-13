@@ -8,14 +8,8 @@ html{
     font-weight: 700;
 }
 
-header{
-    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
-    padding: 1%;
-    margin: -1%;
-}
-
 #panier {
-    position: absolute;
+    position: fixed;
 }
 #panier img {
     position: fixed;
@@ -24,13 +18,20 @@ header{
     right: 10px;
 }
 #profile {
-    position: absolute;
+    position: fixed;
 }
 #profile img {
     position: fixed;
     width: 5%;
     top: 10px;
     right: 100px;
+}
+
+header{
+    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
+    padding: 1%;
+    margin: -1%;
+    position: static;
 }
 
 header h1,header a{
@@ -84,8 +85,7 @@ body {
 }
 .magasin{
   margin: 2%;
-  padding: 2%;
-  
+  padding: 2%;  
 }
 
 footer{
