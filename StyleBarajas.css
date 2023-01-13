@@ -48,3 +48,8 @@ body {
     border-color: #ffe843;
 }
 
+.rayons{
+    display: inline-block;
+    width: 20%;
+}
+
