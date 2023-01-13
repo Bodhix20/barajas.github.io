@@ -82,6 +82,6 @@ body {
 footer{
     background-color:rgb(145, 145, 145);
 }
-footer a{
-    margin-right: 17.4%; 
+.footmod li{
+    list-style-type: none;
 }
