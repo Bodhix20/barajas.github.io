@@ -1,5 +1,13 @@
 header{
     background:#fff url(./Images/header.jpg) center top/cover no-repeat;
+    
+}
+
+header{
+    background-image:url("./Images/profile.png");
+    background-position: right top;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
 }
 
 body {
