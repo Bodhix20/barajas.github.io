@@ -1,26 +1,15 @@
 header{
-    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
-    
+    background:#fff url(./Images/header.jpg) center top/cover no-repeat;    
 }
-
-<<<<<<< Updated upstream
-header{
-    background-image:url("./Images/profile.png");
-    background-position: right top;
-    background-repeat:no-repeat;
-    background-attachment:scroll;
-}
-
 
 header h1,header a{
     display: inline-block;
 }
 
-
-=======
->>>>>>> Stashed changes
 body {
     font-family: "Trebuchet MS";
+    margin:0;
+    padding:0;
 }
 .menu {
     display: flex;                /* Transformation en flexbox */
