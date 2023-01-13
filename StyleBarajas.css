@@ -1,15 +1,36 @@
 header{
-    background:#fff url(./Images/header.jpg) center top/cover no-repeat;    
+    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
+    padding: 1%;
+    margin: -1%;
+}
+
+#panier {
+    position: relative;
+}
+#panier img {
+    position: fixed;
+    width: 5%;
+    top: 10px;
+    right: 10px;
+}
+#profile {
+    position: relative;
+}
+#profile img {
+    position: fixed;
+    width: 5%;
+    top: 10px;
+    right: 100px;
 }
 
 header h1,header a{
     display: inline-block;
+    color: beige;
+    
 }
 
 body {
     font-family: "Trebuchet MS";
-    margin:0;
-    padding:0;
 }
 .menu {
     display: flex;                /* Transformation en flexbox */
@@ -31,7 +52,7 @@ body {
     background-color: #1ABC9C;    /* Arrière-plan */
     color: #fff;                  /* Couleur du texte */
     text-decoration: none;        /* Suppression du soulignement */
-    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border: 1px solid rgb(255,255,255);       /* Ajout d'une bordure */
     border-radius: 4px;           /* Arrondis des bordures */
     
     transition: all 1s ;          /* Ajout des effets de transition */
