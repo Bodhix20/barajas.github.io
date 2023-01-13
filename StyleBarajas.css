@@ -2,6 +2,12 @@ header{
     background:#fff url(./Images/header.jpg) center top/cover no-repeat;
 }
 
+
+header h1,header a{
+    display: inline-block;
+}
+
+
 body {
     font-family: "Trebuchet MS";
 }
@@ -41,3 +47,9 @@ body {
     color: #ffe843;
     border-color: #ffe843;
 }
+
+.rayons{
+    display: inline-block;
+    width: 20%;
+}
+
