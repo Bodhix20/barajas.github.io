@@ -1,3 +1,7 @@
+html{
+    background: #fff url(./Images/Accueil/Yellowdesktop.jpg);
+}
+
 #titre{
     color: beige;
     font-style: oblique;
@@ -84,9 +88,6 @@ body {
   
 }
 
-main{
-    text-align: center;
-}
 footer{
     background-color:rgb(145, 145, 145);
 }
