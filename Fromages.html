@@ -5,7 +5,48 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="StyleBarajas.css">
-            <title>Site Web Barajas</title>                                                                 
+            <title>Site Web Barajas</title>      
+            <script>  
+                function show_value1(x)
+                    {
+                     document.getElementById("slider_value1").innerHTML=x;
+                    }
+                function show_value2(x)
+                    {
+                     document.getElementById("slider_value2").innerHTML=x;
+                    }
+                function show_value3(x)
+                    {
+                     document.getElementById("slider_value3").innerHTML=x;
+                    }
+                function show_value4(x)
+                    {
+                     document.getElementById("slider_value4").innerHTML=x;
+                    }
+                function show_value5(x)
+                    {
+                     document.getElementById("slider_value5").innerHTML=x;
+                    }
+                function show_value6(x)
+                    {
+                     document.getElementById("slider_value6").innerHTML=x;
+                    }
+                function show_value7(x)
+                    {
+                     document.getElementById("slider_value7").innerHTML=x;
+                    }
+                function show_value8(x)
+                    {
+                     document.getElementById("slider_value8").innerHTML=x;
+                    }
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                    }
+    
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                    }
+                    </script>                                                           
         </head>
         <body>
             <header>
@@ -26,7 +67,7 @@
                         <li><a href="./Legumes.html">Légumes</a></li>
                         <li><a href="./Fromages.html">Fromages</a></li>
                         <li><a href="">Pains</a></li>
-                        <li><a href="">Viandes</a></li>
+                        <li><a href="./Viandes.html">Viandes</a></li>
                         <li><a href="">Fruits de Mer</a></li>
                         <li><a href="">Jus</a></li>
                         <li><a href="">Tartinerie</a></li>
@@ -41,14 +82,110 @@
                 <div class="magasin">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Amet venenatis urna cursus eget nunc scelerisque.</p>
     
-                        <div class="rayons"><img src="./Images/Fromages/bleu.jpg" width="100%"><h3>Bleu</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/Brie.png" width="100%"><h3>Brie</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/camembert.jpg" width="100%"><h3>Camembert</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/comte.jpg" width="100%"><h3>Comte</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/emmental.jfif" width="100%"><h3>Emmental </h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/gouda.jpg" width="100%"><h3>Gouda</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/maasdam.jpg" width="100%"><h3>Maasdam</h3></div>
-                        <div class="rayons"><img src="./Images/Fromages/mozzarela.jpg" width="100%"><h3>Mozzarela</h3></div>
+                        <div class="rayons"><img src="./Images/Fromages/bleu.jpg" width="100%"><h3>Bleu</h3><span id="slider_value1" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value1(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/Brie.png" width="100%"><h3>Brie</h3><span id="slider_value2" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value2(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/camembert.jpg" width="100%"><h3>Camembert</h3><span id="slider_value3" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value3(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/comte.jpg" width="100%"><h3>Comte</h3><span id="slider_value4" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value4(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/emmental.jfif" width="100%"><h3>Emmental </h3><span id="slider_value5" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value5(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/gouda.jpg" width="100%"><h3>Gouda</h3><span id="slider_value6" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value6(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/maasdam.jpg" width="100%"><h3>Maasdam</h3><span id="slider_value7" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value7(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="rayons"><img src="./Images/Fromages/mozzarela.jpg" width="100%"><h3>Mozzarela</h3><span id="slider_value8" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Pièces</p><br>
+                            0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value8(this.value)"> 10
+                            <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                            <div class="form-popup" id="myForm">
+                                <form class="form-container">
+                                  <h1>Ajouter cet article au panier ?</h1>
+                        
+                                  <button type="submit" class="btn">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+    
+                                </form>
+                            </div>
+                        </div>
                     </div>
 
             </main>
