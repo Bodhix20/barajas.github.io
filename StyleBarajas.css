@@ -1,14 +1,18 @@
-header{
-    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
-    padding: 1%;
-    margin: -1%;
+html{
+    background: #fff url(./Images/Accueil/Yellowdesktop.jpg);
+}
+
+#titre{
+    color: beige;
+    font-style: oblique;
+    font-weight: 700;
 }
 #titre{
     align-items: baseline;
 }
 
 #panier {
-    position: relative;
+    position: fixed;
 }
 #panier img {
     position: fixed;
@@ -17,7 +21,7 @@ header{
     right: 10px;
 }
 #profile {
-    position: relative;
+    position: fixed;
 }
 #profile img {
     position: fixed;
@@ -26,10 +30,15 @@ header{
     right: 100px;
 }
 
+header{
+    background:#fff url(./Images/header.jpg) center top/cover no-repeat;
+    padding: 1%;
+    margin: -1%;
+    position: static;
+}
+
 header h1,header a{
     display: inline-block;
-    color: beige;
-    
 }
 
 body {
@@ -38,7 +47,7 @@ body {
 .menu {
     display: flex;                /* Transformation en flexbox */
     padding:0;                    /* Suppression des marges internes */
-    background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+    background-color: transparent;       /* Ajout de la couleur d'arrière-plan */
     justify-content: space-around;/* Alignements des liens dans le menu */
 }
 .menu li {
@@ -52,7 +61,7 @@ body {
     margin: 0.5rem;               /* Marges externes */
     padding: 0.4rem 0;            /* Marges internes */
     text-align: center;           /* Centrage du texte */   
-    background-color: #1ABC9C;    /* Arrière-plan */
+    background-color: #2b730b;    /* Arrière-plan */
     color: #fff;                  /* Couleur du texte */
     text-decoration: none;        /* Suppression du soulignement */
     border: 1px solid rgb(255,255,255);       /* Ajout d'une bordure */
@@ -61,15 +70,15 @@ body {
     transition: all 1s ;          /* Ajout des effets de transition */
 }
 .menu a.actif {    
-    background-color: #000 ; 
-    color: #1ABC9C ;
-    border-color: #1ABC9C ;
+    background-color: #fff ; 
+    color: #2b730b ;
+    border-color: #2b730b ;
 }
 .menu a:hover,
 .menu a:hover.actif{
-    background-color: #ed2794;
+    background-color: #e89716;  
     color: #ffe843;
-    border-color: #656565;
+    border-color: #fff;
 }
 
 .rayons{
@@ -83,12 +92,13 @@ body {
 }
 .magasin{
   margin: 2%;
-  padding: 2%;
-  
+  padding: 2%;  
 }
+
 footer{
     background-color:rgb(145, 145, 145);
 }
+<<<<<<< HEAD
 footer a{
     margin-right: 17.4%; 
 }
@@ -126,4 +136,8 @@ footer a{
     cursor: pointer;
     border: none;
     padding: 2%;
+=======
+.footmod li{
+    list-style-type: none;
+>>>>>>> origin/master
 }
