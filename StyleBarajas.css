@@ -58,7 +58,7 @@ body {
     display:block;                /* Transformation en block */
     min-width: 120px;             /* Largeur minimale des liens */   
     
-    margin: 0.5rem;               /* Marges externes */
+    margin: 0.4rem;               /* Marges externes */
     padding: 0.4rem 0;            /* Marges internes */
     text-align: center;           /* Centrage du texte */   
     background-color: #2b730b;    /* Arrière-plan */
@@ -139,7 +139,7 @@ footer a{
     cursor: pointer;
     border: none;
     padding: 2%;
-=======
+}
 .footmod li{
     list-style-type: none;
 >>>>>>> origin/master
