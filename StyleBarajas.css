@@ -93,6 +93,7 @@ body {
 .magasin{
   margin: 2%;
   padding: 2%;  
+  background: white;
 }
 
 footer{
@@ -129,6 +130,8 @@ footer a{
 .form-container .cancel {
     background-color: red;
   }
+
+
 
 .Ajouter{
     background-color: rgb(8, 96, 14);
