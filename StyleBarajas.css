@@ -7,6 +7,9 @@ html{
     font-style: oblique;
     font-weight: 700;
 }
+#titre{
+    align-items: baseline;
+}
 
 #panier {
     position: fixed;
@@ -55,7 +58,7 @@ body {
     display:block;                /* Transformation en block */
     min-width: 120px;             /* Largeur minimale des liens */   
     
-    margin: 0.5rem;               /* Marges externes */
+    margin: 0.4rem;               /* Marges externes */
     padding: 0.4rem 0;            /* Marges internes */
     text-align: center;           /* Centrage du texte */   
     background-color: #2b730b;    /* Arrière-plan */
@@ -83,14 +86,62 @@ body {
     width: 24%;
    
 }
+
+.rayons p, .rayons input{
+    display: inline;
+}
 .magasin{
   margin: 2%;
   padding: 2%;  
+  background: white;
 }
 
 footer{
     background-color:rgb(145, 145, 145);
 }
+<<<<<<< HEAD
 footer a{
     margin-right: 17.4%; 
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white;
+}
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+}
+.form-container .btn {
+    background-color: rgb(8, 96, 14);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.form-container .cancel {
+    background-color: red;
+  }
+
+
+
+.Ajouter{
+    background-color: rgb(8, 96, 14);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 2%;
+   
+}
+.footmod li{
+    list-style-type: none;
+>>>>>>> origin/master
 }

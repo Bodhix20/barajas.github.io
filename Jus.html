@@ -1,0 +1,161 @@
+<DOCTYPE! html>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="StyleBarajas.css">
+            <title>Site Web Barajas</title>     
+            <script>  
+                function show_value1(x)
+                    {
+                     document.getElementById("slider_value1").innerHTML=x;
+                    }
+                function show_value2(x)
+                    {
+                     document.getElementById("slider_value2").innerHTML=x;
+                    }
+                function show_value3(x)
+                    {
+                     document.getElementById("slider_value3").innerHTML=x;
+                    }
+                function show_value4(x)
+                    {
+                     document.getElementById("slider_value4").innerHTML=x;
+                    }
+                function show_value5(x)
+                    {
+                     document.getElementById("slider_value5").innerHTML=x;
+                    }
+                function show_value6(x)
+                    {
+                     document.getElementById("slider_value6").innerHTML=x;
+                    }
+        
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                    }
+    
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                    }
+                    </script>                                                            
+        </head>
+        <body>
+            <header>
+                <div id="titre">
+                    <h1>Barajas</h1>
+                </div>
+                <div id="panier">
+                    <a href=""><img src="./Images/Panier.png" class="panier" width="5%"></a>
+                </div>
+                <div id="profile">
+                    <a href=""><img src="./Images/profile.png" class="profile" width="5%"></a>
+                </div>                                                                                                    <!--mettre lien page panier, mettre lien page connexion/creation-->
+                <nav>
+                    <ul class="menu">
+                        <li><a href="./Accueil.html">Accueil</a></li>                                                         <!--mettre liens pages produits-->
+                        <li><a href="./Fruits.html">Fruits</a></li>
+                        <li><a href="./Legumes.html">Légumes</a></li>
+                        <li><a href="./Fromages.html">Fromages</a></li>
+                        <li><a href="./Pains.html">Pains</a></li>
+                        <li><a href="./Viandes.html">Viandes</a></li>
+                        <li><a href="./Fruits de mer.html">Fruits de Mer</a></li>
+                        <li><a href="./Jus.html">Jus</a></li>
+                        <li><a href="./Tartinerie.html">Tartinerie</a></li>
+                        <li><a href="./Vins.html">Vins</a></li>
+                        <li><a href="">Maps</a></li>
+                    </ul>
+    
+                </nav>
+    
+            </header>
+            <main>
+
+                <div class="magasin">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Amet venenatis urna cursus eget nunc scelerisque.</p>
+
+                    <div class="rayons"><img src="./Images/Jus/cranberry.jfif" width="100%"><h3>Cranberry</h3><p>Quantité:</p>
+                        <span id="slider_value1" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value1(this.value)"> 10
+                        <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                        <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                                <h1>Ajouter cet article au panier ?</h1>
+                
+                                <button type="submit" class="btn">Valider</button>
+                                <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rayons"><img src="./Images/Jus/peche.jpg" width="100%"><h3>Peche</h3><p>Quantité:</p>
+                        <span id="slider_value2" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value2(this.value)"> 10
+                        <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                        <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                              <h1>Ajouter cet article au panier ?</h1>
+                    
+                              <button type="submit" class="btn">Valider</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rayons"><img src="./Images/Jus/poire.jfif" width="100%"><h3>Poire</h3><p>Quantité:</p>
+                        <span id="slider_value3" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value3(this.value)"> 10
+                        <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                        <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                              <h1>Ajouter cet article au panier ?</h1>
+                    
+                              <button type="submit" class="btn">Valider</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rayons"><img src="./Images/Jus/pomme.jfif" width="100%"><h3>Pomme</h3><p>Quantité:</p>
+                        <span id="slider_value4" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value4(this.value)"> 10
+                        <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                        <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                              <h1>Ajouter cet article au panier ?</h1>
+                    
+                              <button type="submit" class="btn">Valider</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rayons"><img src="./Images/Jus/raisin.jpg" width="100%"><h3>Raisin</h3><p>Quantité:</p>
+                        <span id="slider_value5" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value5(this.value)"> 10
+                        <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
+                        <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                              <h1>Ajouter cet article au panier ?</h1>
+                    
+                              <button type="submit" class="btn">Valider</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Annuler</button>
+
+                            </form>
+                        </div>
+                    </div>
+                
+                </div>
+
+        </main>
+
+        <footer>
+            <a href="">Info</a>                                                                         <!--mettre lien info-->
+            <a href="https://www.instagram.com/vbrequin/?hl=fr" target="_blank"><img src="./images/instagram.png" width="2%"></a>                                <!--mettre lien instagram-->
+            <a href="https://twitter.com/elonmusk/with_replies" target="_blank"><img src="./images/twitter.png" width="2%"></a>                                  <!--mettre lien twitter-->
+            <a href="https://fr-fr.facebook.com/barajasprimeurs" target="_blank"><img src="./images/facebook.png" width="2%"></a>                                <!--mettre lien facebook-->
+            <a href="https://www.google.com/maps/search/barajas/@43.6698505,-1.5257569,10z/data=!3m1!4b1" target="_blank" >adresse</a>                           <!--mettre lien google plan-->
+        </footer>
+    </body>
+</html>
