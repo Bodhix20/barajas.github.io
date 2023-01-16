@@ -74,8 +74,7 @@ body {
     color: #2b730b ;
     border-color: #2b730b ;
 }
-.menu a:hover,
-.menu a:hover.actif{
+.menu a:hover,.menu a:hover.actif{
     background-color: #e89716;  
     color: #ffe843;
     border-color: #fff;
