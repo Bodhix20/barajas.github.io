@@ -203,10 +203,10 @@ td, th{
 ul{
     list-style-type: none;
 }
-<<<<<<< HEAD
+
 .footmod li{
     display: inline-block;
-=======
+}
 
 .row {
     display: flex;
@@ -223,5 +223,4 @@ ul{
     padding: 5px;
     margin: 15px;
     text-align: center;
->>>>>>> origin/master
 }
