@@ -1,5 +1,5 @@
 html{
-    background: #fff url(./Images/Accueil/Orangedesktop.jpg);
+    background: #fff url(./Images/Accueil/Yellowdesktop.jpg);
 }
 
 #titre{
@@ -148,6 +148,14 @@ body {
   margin: 2%;
   padding: 2%;  
   background: white;
+}
+
+footer{
+    background-color:rgb(145, 145, 145);
+}
+
+footer a{
+    margin-right: 17.4%; 
 }
 
 .form-popup {
