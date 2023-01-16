@@ -81,6 +81,60 @@ body {
     border-color: #fff;
 }
 
+.sliderAccueil {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 10000px;
+    background-color: pink;
+    height: 10px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  #slide-4:target ~ .image-container {
+    left: -1500px;
+  }
+  #slide-5:target ~ .image-container {
+    left: -2000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+  }
 .rayons{
     display: inline-block;
     width: 24%;
@@ -138,10 +192,44 @@ footer a{
     color: white;
     cursor: pointer;
     border: none;
-    padding: 2%;
-   
+    padding: 2%;  
 }
-.footmod li{
+footer{
+    background-color:#e89716;
+}
+table{
+    width: 100%;
+}
+td, th{
+    text-align: left;
+}
+#infos, #adresse1, #adresse2{
+    width: 33%;
+    text-align: left;
+    margin-top: 0%;
+}
+ul{
     list-style-type: none;
+}
+<<<<<<< HEAD
+.footmod li{
+    display: inline-block;
+=======
 
+.row {
+    display: flex;
+  }
+
+.colonneCap {
+    flex: 90%;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.colonneHoss {
+    flex: 90%;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+>>>>>>> origin/master
 }
