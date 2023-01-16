@@ -149,14 +149,6 @@ body {
   background: white;
 }
 
-footer{
-    background-color:rgb(145, 145, 145);
-}
-
-footer a{
-    margin-right: 17.4%; 
-}
-
 .form-popup {
     display: none;
     position: fixed;
@@ -191,10 +183,23 @@ footer a{
     color: white;
     cursor: pointer;
     border: none;
-    padding: 2%;
-   
+    padding: 2%;  
 }
-.footmod li{
+footer{
+    background-color:#e89716;
+}
+table{
+    width: 100%;
+}
+td, th{
+    text-align: left;
+}
+#infos, #adresse1, #adresse2{
+    width: 33%;
+    text-align: left;
+    margin-top: 0%;
+}
+ul{
     list-style-type: none;
 }
 
