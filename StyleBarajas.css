@@ -202,25 +202,3 @@ td, th{
 ul{
     list-style-type: none;
 }
-<<<<<<< HEAD
-.footmod li{
-    display: inline-block;
-=======
-
-.row {
-    display: flex;
-  }
-
-.colonneCap {
-    flex: 90%;
-    padding: 5px;
-    margin: 15px;
-    text-align: center;
-}
-.colonneHoss {
-    flex: 90%;
-    padding: 5px;
-    margin: 15px;
-    text-align: center;
->>>>>>> origin/master
-}
