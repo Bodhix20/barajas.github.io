@@ -198,12 +198,19 @@ footer a{
     list-style-type: none;
 }
 
-
 .row {
     display: flex;
   }
 
-.column {
-    flex: 33.33%;
+.colonneCap {
+    flex: 90%;
     padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.colonneHoss {
+    flex: 90%;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
 }
