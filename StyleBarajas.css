@@ -83,11 +83,8 @@ body {
 
 .sliderAccueil {
     width: 100%;
-<<<<<<< HEAD
     height: 1%;
     background-color: transparent;
-=======
->>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -96,13 +93,10 @@ body {
     overflow: hidden;
   }
   .image-container {
-<<<<<<< HEAD
     width: 100000px;
     background-color: pink;
-=======
     width: 10000px;
     height: 10px;
->>>>>>> origin/master
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
@@ -207,6 +201,7 @@ footer a{
 }
 footer{
     background-color:#e89716;
+
 }
 table{
     width: 100%;
@@ -247,11 +242,11 @@ ul{
     margin: 15px;
     text-align: center;
 }
-<<<<<<< HEAD
 
 .row img{
     width: 95%;
-=======
+}
+
 input:hover{
     background-color: #e89716;
 }
