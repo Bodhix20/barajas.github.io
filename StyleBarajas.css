@@ -92,6 +92,8 @@ body {
     overflow: hidden;
   }
   .image-container {
+
+    width: 100000px;
     width: 10000px;
     height: 10px;
     clear: both;
@@ -238,7 +240,6 @@ ul{
     margin: 15px;
     text-align: center;
 }
-
 
 .row img{
     width: 95%;
