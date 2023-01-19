@@ -83,14 +83,7 @@ body {
 
 .sliderAccueil {
     width: 100%;
-<<<<<<< HEAD
     background-color: transparent;
-=======
-<<<<<<< HEAD
-    height: 1%;
-    background-color: transparent;
-=======
->>>>>>> origin/master
 >>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +93,7 @@ body {
     overflow: hidden;
   }
   .image-container {
-<<<<<<< HEAD
+
     width: 100000px;
     background-color: pink;
 =======
@@ -210,7 +203,7 @@ footer a{
     padding: 2%;  
 }
 footer{
-    background-color:#e89716;
+    background-color:#e8981600;
 }
 table{
     width: 100%;
