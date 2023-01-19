@@ -82,9 +82,12 @@ body {
 }
 
 .sliderAccueil {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+<<<<<<< HEAD
+    background-color: transparent;
+=======
     background-color: yellow;
+>>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -236,7 +239,12 @@ ul{
     margin: 15px;
     text-align: center;
 }
+<<<<<<< HEAD
 
 .row img{
     width: 95%;
+=======
+input:hover{
+    background-color: #e89716;
+>>>>>>> origin/master
 }
