@@ -216,6 +216,10 @@ ul{
     display: inline-block;
 }
 
+.footmod img{
+    width: 10%;
+}
+
 .row {
     display: flex;
   }
@@ -232,6 +236,11 @@ ul{
     margin: 15px;
     text-align: center;
 }
+<<<<<<< HEAD
+
+.row img{
+    width: 95%;
+=======
 input:hover{
     background-color: #e89716;
 }
