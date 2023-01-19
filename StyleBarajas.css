@@ -236,11 +236,14 @@ ul{
     margin: 15px;
     text-align: center;
 }
-<<<<<<< HEAD
+
 
 .row img{
     width: 95%;
-=======
+}
 input:hover{
     background-color: #e89716;
+}
+a:visited{
+    color:beige;
 }

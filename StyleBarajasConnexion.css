@@ -31,16 +31,18 @@ body{
    }
    
    /* Set a style for all buttons */
-   input[type=submit] {
+   #submit {
     background-color: #53af57;
     color: white;
-    padding: 14px 20px;
+    padding: 20px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
+    list-style: none;
+    text-align: center;
    }
-   input[type=submit]:hover {
+   #submit:hover {
     background-color: white;
     color: #53af57;
     border: 1px solid #53af57;
