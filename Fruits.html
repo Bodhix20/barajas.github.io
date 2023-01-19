@@ -41,11 +41,53 @@
                     }
 
                 function openForm() {
-                    document.getElementById("myForm").style.display = "block";
+                    document.getElementById("myForm1").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm2").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm3").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm4").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm5").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm6").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm7").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm8").style.display = "block";
                     }
     
                 function closeForm() {
-                    document.getElementById("myForm").style.display = "none";
+                    document.getElementById("myForm1").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm2").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm3").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm4").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm5").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm6").style.display = "none";
+                    }                    
+                function closeForm() {
+                    document.getElementById("myForm7").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm8").style.display = "none";
                     }
                     </script>                                                            
         </head>
@@ -55,10 +97,10 @@
                     <a href="./Accueil.html"><h1>Barajas</h1></a>
                 </div>
                 <div id="panier">
-                    <a href=""><img src="./Images/Panier.png" class="panier" width="5%"></a>
+                    <img src="./Images/Panier.png" class="panier" alt="error 404">
                 </div>
                 <div id="profile">
-                    <a href="./PageConnexion.html"><img src="./Images/profile.png" class="profile" width="5%"></a>
+                    <a href="./PageConnexion.html"><img src="./Images/profile.png" class="profile" alt="error 404"></a>
                 </div>                                                                                                    <!--mettre lien page panier, mettre lien page connexion/creation-->
                 <nav>
                     <ul class="menu">
@@ -68,7 +110,7 @@
                         <li><a href="./Fromages.html">Fromages</a></li>
                         <li><a href="./Pains.html">Pains</a></li>
                         <li><a href="./Viandes.html">Viandes</a></li>
-                        <li><a href="./Fruits de mer.html">Fruits de Mer</a></li>
+                        <li><a href="./Fruits_de_mer.html">Fruits de Mer</a></li>
                         <li><a href="./Jus.html">Jus</a></li>
                         <li><a href="./Tartinerie.html">Tartinerie</a></li>
                         <li><a href="./Vins.html">Vins</a></li>
@@ -83,12 +125,12 @@
                 <div class="magasin">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Amet venenatis urna cursus eget nunc scelerisque.</p>
     
-                        <div class="rayons"><img src="./Images/Fruits/ananas.jpg" width="100%"><h3>Ananas</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/ananas.jpg" alt="error 404"><h3>Ananas</h3><p>Quantité:</p>
                             <span id="slider_value1" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 18€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value1(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value1(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm1">
                                 <form class="form-container">
                                     <h1>Ajouter cet article au panier ?</h1>
                     
@@ -98,12 +140,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/bananes.jpg" width="100%"><h3>Bananes</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/bananes.jpg" alt="error 404"><h3>Bananes</h3><p>Quantité:</p>
                             <span id="slider_value2" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 3€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value2(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value2(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm2">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -113,12 +155,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/clementines.jpg" width="100%"><h3>Clementines</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/clementines.jpg" alt="error 404"><h3>Clementines</h3><p>Quantité:</p>
                             <span id="slider_value3" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 3€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value3(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value3(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm3">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -128,12 +170,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/kiwis.jpg" width="100%"><h3>Kiwis</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/kiwis.jpg" alt="error 404"><h3>Kiwis</h3><p>Quantité:</p>
                             <span id="slider_value4" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 4€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value4(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value4(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm4">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -143,12 +185,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/mangues.jpg" width="100%"><h3>Mangues </h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/mangues.jpg" alt="error 404"><h3>Mangues </h3><p>Quantité:</p>
                             <span id="slider_value5" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 10€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value5(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value5(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm5">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -158,12 +200,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/oranges.jpg" width="100%"><h3>Oranges</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/oranges.jpg" alt="error 404"><h3>Oranges</h3><p>Quantité:</p>
                             <span id="slider_value6" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 2€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value6(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value6(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm6">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -173,12 +215,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/poires.jpg" width="100%"><h3>Poires</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/poires.jpg" alt="error 404"><h3>Poires</h3><p>Quantité:</p>
                             <span id="slider_value7" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 3€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value7(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value7(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm7">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -188,12 +230,12 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="rayons"><img src="./Images/Fruits/pommes.jpg" width="100%"><h3>Pommes</h3><p>Quantité:</p>
+                        <div class="rayons"><img src="./Images/Fruits/pommes.jpg" alt="error 404"><h3>Pommes</h3><p>Quantité:</p>
                             <span id="slider_value8" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Kg</p><br>
                             <p>Prix : 1.5€/kg</p><br>
-                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value=10" onclick="show_value8(this.value)"> 10
+                            0<input class="slider" type="range" min="0" max="10" step="0.25" name="sld6" value="0" onclick="show_value8(this.value)"> 10
                             <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                            <div class="form-popup" id="myForm">
+                            <div class="form-popup" id="myForm8">
                                 <form class="form-container">
                                   <h1>Ajouter cet article au panier ?</h1>
                         
@@ -220,9 +262,9 @@
                             <p id="adresse2">20 Bd des Cigales, 40130 Capbreton, France.</p>
                         </td>
                         <td class="foodmod">
-                            <ul><li><a id="insta" href="https://www.instagram.com/vbrequin/?hl=fr" target="_blank"><img src="./images/instagram.png" width="10%"></a></li>                                <!--mettre lien instagram-->
-                                <li><a id="twit" href="https://twitter.com/elonmusk/with_replies" target="_blank"><img src="./images/twitter.png" width="10%"></a></li>                                  <!--mettre lien twitter-->
-                                <li><a id="face" href="https://fr-fr.facebook.com/barajasprimeurs" target="_blank"><img src="./images/facebook.png" width="10%"></a></li>                                <!--mettre lien facebook-->
+                            <ul><li><a id="insta" href="https://www.instagram.com/vbrequin/?hl=fr" target="_blank"><img src="./images/instagram.png" alt="error 404"></a></li>                                <!--mettre lien instagram-->
+                                <li><a id="twit" href="https://twitter.com/elonmusk/with_replies" target="_blank"><img src="./images/twitter.png" alt="error 404"></a></li>                                  <!--mettre lien twitter-->
+                                <li><a id="face" href="https://fr-fr.facebook.com/barajasprimeurs" target="_blank"><img src="./images/facebook.png" alt="error 404"></a></li>                                <!--mettre lien facebook-->
                             </ul></td>
                     </tr>
                 </table>
