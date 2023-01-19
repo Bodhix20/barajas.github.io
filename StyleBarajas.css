@@ -83,7 +83,11 @@ body {
 
 .sliderAccueil {
     width: 100%;
+<<<<<<< HEAD
     background-color: transparent;
+=======
+    background-color: yellow;
+>>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -230,4 +234,7 @@ ul{
     padding: 5px;
     margin: 15px;
     text-align: center;
+}
+input:hover{
+    background-color: #e89716;
 }
