@@ -83,8 +83,11 @@ body {
 
 .sliderAccueil {
     width: 100%;
+<<<<<<< HEAD
     height: 1%;
     background-color: transparent;
+=======
+>>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -93,8 +96,13 @@ body {
     overflow: hidden;
   }
   .image-container {
+<<<<<<< HEAD
     width: 100000px;
     background-color: pink;
+=======
+    width: 10000px;
+    height: 10px;
+>>>>>>> origin/master
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
@@ -139,6 +147,9 @@ body {
     display: inline-block;
     width: 24%;
    
+}
+.rayons img{
+    width:100%;
 }
 
 .rayons p, .rayons input{
@@ -216,6 +227,10 @@ ul{
     display: inline-block;
 }
 
+.footmod img{
+    width: 10%;
+}
+
 .row {
     display: flex;
   }
@@ -232,6 +247,11 @@ ul{
     margin: 15px;
     text-align: center;
 }
+<<<<<<< HEAD
+
+.row img{
+    width: 95%;
+=======
 input:hover{
     background-color: #e89716;
 }
