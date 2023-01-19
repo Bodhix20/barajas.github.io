@@ -32,13 +32,39 @@
                      document.getElementById("slider_value6").innerHTML=x;
                     }
         
-                function openForm() {
-                    document.getElementById("myForm").style.display = "block";
+                    function openForm() {
+                    document.getElementById("myForm1").style.display = "block";
                     }
+                function openForm() {
+                    document.getElementById("myForm2").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm3").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm4").style.display = "block";
+                    }
+                function openForm() {
+                    document.getElementById("myForm5").style.display = "block";
+                    }
+                
     
                 function closeForm() {
-                    document.getElementById("myForm").style.display = "none";
+                    document.getElementById("myForm1").style.display = "none";
                     }
+                function closeForm() {
+                    document.getElementById("myForm2").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm3").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm4").style.display = "none";
+                    }
+                function closeForm() {
+                    document.getElementById("myForm5").style.display = "none";
+                    }
+                
                     </script>                                                            
         </head>
         <body>
@@ -47,10 +73,10 @@
                     <a href="./Accueil.html"><h1>Barajas</h1></a>
                 </div>
                 <div id="panier">
-                    <a href=""><img src="./Images/Panier.png" class="panier" width="5%"></a>
+                    <img src="./Images/Panier.png" class="panier" alt="error 404">
                 </div>
                 <div id="profile">
-                    <a href="./PageConnexion.html"><img src="./Images/profile.png" class="profile" width="5%"></a>
+                    <a href="./PageConnexion.html"><img src="./Images/profile.png" class="profile" alt="error 404"></a>
                 </div>                                                                                                    <!--mettre lien page panier, mettre lien page connexion/creation-->
                 <nav>
                     <ul class="menu">
@@ -60,7 +86,7 @@
                         <li><a href="./Fromages.html">Fromages</a></li>
                         <li><a href="./Pains.html">Pains</a></li>
                         <li><a href="./Viandes.html">Viandes</a></li>
-                        <li><a href="./Fruits de mer.html">Fruits de Mer</a></li>
+                        <li><a href="./Fruits_de_mer.html">Fruits de Mer</a></li>
                         <li><a href="./Jus.html">Jus</a></li>
                         <li><a href="./Tartinerie.html">Tartinerie</a></li>
                         <li><a href="./Vins.html">Vins</a></li>
@@ -75,12 +101,12 @@
                 <div class="magasin">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Amet venenatis urna cursus eget nunc scelerisque.</p>
 
-                    <div class="rayons"><img src="./Images/Jus/cranberry.jfif" width="100%"><h3>Cranberry</h3><p>Quantité:</p>
+                    <div class="rayons"><img src="./Images/Jus/cranberry.jfif" alt="error 404"><h3>Cranberry</h3><p>Quantité:</p>
                         <span id="slider_value1" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
                         <p>Prix : 3€/Bouteille</p><br>
-                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value1(this.value)"> 10
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value="0" onclick="show_value1(this.value)"> 10
                         <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                        <div class="form-popup" id="myForm">
+                        <div class="form-popup" id="myForm1">
                             <form class="form-container">
                                 <h1>Ajouter cet article au panier ?</h1>
                 
@@ -90,12 +116,12 @@
                             </form>
                         </div>
                     </div>
-                    <div class="rayons"><img src="./Images/Jus/peche.jpg" width="100%"><h3>Peche</h3><p>Quantité:</p>
+                    <div class="rayons"><img src="./Images/Jus/peche.jpg" alt="error 404"><h3>Peche</h3><p>Quantité:</p>
                         <span id="slider_value2" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
                         <p>Prix : 2€/Bouteille</p><br>
-                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value2(this.value)"> 10
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value="0" onclick="show_value2(this.value)"> 10
                         <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                        <div class="form-popup" id="myForm">
+                        <div class="form-popup" id="myForm2">
                             <form class="form-container">
                               <h1>Ajouter cet article au panier ?</h1>
                     
@@ -105,12 +131,12 @@
                             </form>
                         </div>
                     </div>
-                    <div class="rayons"><img src="./Images/Jus/poire.jfif" width="100%"><h3>Poire</h3><p>Quantité:</p>
+                    <div class="rayons"><img src="./Images/Jus/poire.jfif" alt="error 404"><h3>Poire</h3><p>Quantité:</p>
                         <span id="slider_value3" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
                         <p>Prix : 2€/Bouteille</p><br>
-                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value3(this.value)"> 10
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value="0" onclick="show_value3(this.value)"> 10
                         <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                        <div class="form-popup" id="myForm">
+                        <div class="form-popup" id="myForm3">
                             <form class="form-container">
                               <h1>Ajouter cet article au panier ?</h1>
                     
@@ -120,12 +146,12 @@
                             </form>
                         </div>
                     </div>
-                    <div class="rayons"><img src="./Images/Jus/pomme.jfif" width="100%"><h3>Pomme</h3><p>Quantité:</p>
+                    <div class="rayons"><img src="./Images/Jus/pomme.jfif" alt="error 404"><h3>Pomme</h3><p>Quantité:</p>
                         <span id="slider_value4" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
                         <p>Prix : 1.5€/Bouteille</p><br>
-                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value4(this.value)"> 10
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value="0" onclick="show_value4(this.value)"> 10
                         <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                        <div class="form-popup" id="myForm">
+                        <div class="form-popup" id="myForm4">
                             <form class="form-container">
                               <h1>Ajouter cet article au panier ?</h1>
                     
@@ -135,12 +161,12 @@
                             </form>
                         </div>
                     </div>
-                    <div class="rayons"><img src="./Images/Jus/raisin.jpg" width="100%"><h3>Raisin</h3><p>Quantité:</p>
+                    <div class="rayons"><img src="./Images/Jus/raisin.jpg" alt="error 404"><h3>Raisin</h3><p>Quantité:</p>
                         <span id="slider_value5" style="color:rgb(8, 96, 14);font-weight:bold;"></span><p>Bouteilles</p><br>
                         <p>Prix : 1€/Bouteille</p><br>
-                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value=10" onclick="show_value5(this.value)"> 10
+                        0<input class="slider" type="range" min="0" max="10" step="1" name="sld6" value="0" onclick="show_value5(this.value)"> 10
                         <input class="Ajouter" type="button" value="Ajouter au panier" onclick="openForm()">
-                        <div class="form-popup" id="myForm">
+                        <div class="form-popup" id="myForm5">
                             <form class="form-container">
                               <h1>Ajouter cet article au panier ?</h1>
                     
@@ -168,9 +194,9 @@
                         <p id="adresse2">20 Bd des Cigales, 40130 Capbreton, France.</p>
                     </td>
                     <td class="foodmod">
-                        <ul><li><a id="insta" href="https://www.instagram.com/vbrequin/?hl=fr" target="_blank"><img src="./images/instagram.png" width="10%"></a></li>                                <!--mettre lien instagram-->
-                            <li><a id="twit" href="https://twitter.com/elonmusk/with_replies" target="_blank"><img src="./images/twitter.png" width="10%"></a></li>                                  <!--mettre lien twitter-->
-                            <li><a id="face" href="https://fr-fr.facebook.com/barajasprimeurs" target="_blank"><img src="./images/facebook.png" width="10%"></a></li>                                <!--mettre lien facebook-->
+                        <ul><li><a id="insta" href="https://www.instagram.com/vbrequin/?hl=fr" target="_blank"><img src="./images/instagram.png" alt="error 404"></a></li>                                <!--mettre lien instagram-->
+                            <li><a id="twit" href="https://twitter.com/elonmusk/with_replies" target="_blank"><img src="./images/twitter.png" alt="error 404"></a></li>                                  <!--mettre lien twitter-->
+                            <li><a id="face" href="https://fr-fr.facebook.com/barajasprimeurs" target="_blank"><img src="./images/facebook.png" alt="error 404"></a></li>                                <!--mettre lien facebook-->
                         </ul></td>
                 </tr>
             </table>

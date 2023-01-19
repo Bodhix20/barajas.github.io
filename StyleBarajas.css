@@ -83,7 +83,15 @@ body {
 
 .sliderAccueil {
     width: 100%;
+<<<<<<< HEAD
     background-color: transparent;
+=======
+<<<<<<< HEAD
+    height: 1%;
+    background-color: transparent;
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -92,15 +100,20 @@ body {
     overflow: hidden;
   }
   .image-container {
-    width: 10000px;
+<<<<<<< HEAD
+    width: 100000px;
     background-color: pink;
+=======
+    width: 10000px;
     height: 10px;
+>>>>>>> origin/master
     clear: both;
     position: relative;
     -webkit-transition: left 2s;
     -moz-transition: left 2s;
     -o-transition: left 2s;
     transition: left 2s;
+    text-align: center;
   }
   .slide {
     float: left;
@@ -112,16 +125,16 @@ body {
     left: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -500px;
+    left: -700px;
   }
   #slide-3:target ~ .image-container {
-    left: -1000px;
+    left: -1400px;
   }
   #slide-4:target ~ .image-container {
-    left: -1500px;
+    left: -2100px;
   }
   #slide-5:target ~ .image-container {
-    left: -2000px;
+    left: -2800px;
   }
   .buttons {
     position: relative;
@@ -138,6 +151,9 @@ body {
     display: inline-block;
     width: 24%;
    
+}
+.rayons img{
+    width:100%;
 }
 
 .rayons p, .rayons input{
@@ -238,4 +254,10 @@ ul{
 
 .row img{
     width: 95%;
+<<<<<<< HEAD
+=======
+=======
+input:hover{
+    background-color: #e89716;
+>>>>>>> origin/master
 }
