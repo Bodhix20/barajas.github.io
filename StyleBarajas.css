@@ -137,6 +137,7 @@ body {
   .buttons {
     position: relative;
     top: -20px;
+    margin-top: 10px;
   }
   .buttons a {
     display: inline-block;
@@ -144,6 +145,7 @@ body {
     width: 15px;
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
+    margin-top: 15px;
   }
 .rayons{
     display: inline-block;
