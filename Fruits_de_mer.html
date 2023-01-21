@@ -88,11 +88,14 @@
                 function closeForm() {
                     document.getElementById("myForm8").style.display = "none";
                     }
+                
                 function openMenu() {
                     document.getElementById("menu").style.display = "block";
+                    document.getElementById("FermerNav").style.display = "inline-block";
                     }
                 function closeMenu() {
                     document.getElementById("menu").style.display = "none";
+                    document.getElementById("FermerNav").style.display = "none";
                     }
                     </script>                                                           
         </head>
@@ -109,7 +112,7 @@
                 </div>                                                                                                    <!--mettre lien page panier, mettre lien page connexion/creation-->
         
                 <nav>
-                    <ul class="menu">
+                    <ul id="menu">
                         <li><a href="./index.html">Accueil</a></li>                                                         <!--mettre liens pages produits-->
                         <li><a href="./Fruits.html">Fruits</a></li>
                         <li><a href="./Legumes.html">Légumes</a></li>
@@ -124,7 +127,7 @@
                         <input id="FermerNav" type="button" value="Fermer" onclick="closeMenu()">
                     </ul>
                     <input id="navigateur" type="button" value="Navigation" onclick="openMenu()">
-    
+                    <input id="FermerNav" type="button" value="Fermer" onclick="closeMenu()">
                 </nav>
     
             </header>
