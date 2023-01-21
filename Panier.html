@@ -7,11 +7,13 @@
             <link rel="stylesheet" href="StyleBarajas.css">
             <title>Site Web Barajas</title> 
             <script>
-                 function openMenu() {
+                function openMenu() {
                     document.getElementById("menu").style.display = "block";
+                    document.getElementById("FermerNav").style.display = "inline-block";
                     }
                 function closeMenu() {
                     document.getElementById("menu").style.display = "none";
+                    document.getElementById("FermerNav").style.display = "none";
                     }
             </script>                                                                
         </head>
@@ -37,9 +39,10 @@
                     <li><a href="./Tartinerie.html">Tartinerie</a></li>
                     <li><a href="./Vins.html">Vins</a></li>
                     <li><a href="./Maps.html">Maps</a></li>
-                    <input id="FermerNav" type="button" value="Fermer" onclick="closeMenu()">
+                    
                 </ul>
                 <input id="navigateur" type="button" value="Navigation" onclick="openMenu()">
+                <input id="FermerNav" type="button" value="Fermer" onclick="closeMenu()">
             </nav>
         </header>
         <main>
