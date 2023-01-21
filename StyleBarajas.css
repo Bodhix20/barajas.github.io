@@ -43,22 +43,22 @@ header h1,header a{
 body {
     font-family: "Trebuchet MS";
 }
-.menu {
-    display: flex;                /* Transformation en flexbox */
+#menu {
+    display:flex;                /* Transformation en flexbox */
     padding:0;                    /* Suppression des marges internes */
     background-color: transparent;       /* Ajout de la couleur d'arrière-plan */
     justify-content: space-around;/* Alignements des liens dans le menu */
 }
-.menu li {
+#menu li {
     list-style-type: none ;       /* Suppression des puces */
+    width: 9%;
   
 }
-.menu a {
-    display:block;                /* Transformation en block */
-    min-width: 120px;             /* Largeur minimale des liens */   
-    
-    margin: 0.4rem;               /* Marges externes */
-    padding: 0.4rem 0;            /* Marges internes */
+#menu a {
+    width: 90%;               /* Transformation en block */
+    display: inline-block;                       /* Largeur minimale des liens */  
+                           /* Marges externes */
+    padding: 5px;            /* Marges internes */
     text-align: center;           /* Centrage du texte */   
     background-color: #2b730b;    /* Arrière-plan */
     color: #fff;                  /* Couleur du texte */
@@ -68,16 +68,22 @@ body {
     
     transition: all 1s ;          /* Ajout des effets de transition */
 }
-.menu a.actif {    
+#menu a.actif {    
     background-color: #fff ; 
     color: #2b730b ;
     border-color: #2b730b ;
 }
-.menu a:hover,
-.menu a:hover.actif{
+#menu a:hover,
+#menu a:hover.actif{
     background-color: #e89716;  
     color: #ffe843;
     border-color: #fff;
+}
+#navigateur{
+    display: none;
+}
+#FermerNav{
+    display: none;
 }
 
 .sliderAccueil {
@@ -89,6 +95,7 @@ body {
     margin-bottom: 25px;
     text-align: center;
     overflow: hidden;
+    z-index: 8;
   }
   .image-container {
 
@@ -102,12 +109,14 @@ body {
     -o-transition: left 2s;
     transition: left 2s;
     text-align: center;
+    z-index: 8;
   }
   .slide {
     float: left;
     margin: 0px;
     padding: 0px;
     position: relative;
+    z-index: 8;
   }
   #slide-1:target ~ .image-container {
     left: 0px;
@@ -248,4 +257,77 @@ input:hover{
 }
 a:visited{
     color:beige;
+}
+
+
+@media only screen and (max-width: 768px){
+.rayons{
+    width: 100%;
+    font-size: larger;
+}
+#menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+#menu li{
+    width: 100%;
+}
+
+#menu a{
+    padding:15px;
+}
+#navigateur{
+    display: block;
+    background-color: #399910;
+    color: white;
+    padding: 5px;
+    font-size: xx-large;
+    border: 1px solid rgb(255,255,255);       
+    border-radius: 4px; 
+    z-index: 9;
+}
+#FermerNav{
+    display:block;
+    background-color: #d50e0b;
+    color: white;
+    padding: 5px;
+    font-size: xx-large;
+    width: 94.5%;
+    border: 1px solid rgb(255,255,255);       
+    border-radius: 4px; 
+    z-index: 9;
+}
+.Ajouter{
+    background-color: rgb(8, 96, 14);
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 2%; 
+    width: 40%; 
+}
+
+.slider{
+    width: 50%;
+}
+.rayons span{
+    font-size: larger;
+}
+.form-container{
+    width: 100%;
+    height: 100%;
+    max-width: none;
+
+}
+.form-popup{
+    width: 100%;
+    height: 400px;
+    left: 0%;
+}
+.form-container .btn{
+  width: 100%;
+  height: 30%;
+  font-size: xx-large;
+}
 }
