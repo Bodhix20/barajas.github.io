@@ -273,6 +273,7 @@ a:visited{
     position: fixed;
     width: 100%;
     z-index: 9;
+    top: 0%;
 }
 #menu li{
     width: 100%;
